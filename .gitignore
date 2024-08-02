@@ -7,3 +7,5 @@
 *_files
 *_cache
 rsconnect
+
+/.quarto/
