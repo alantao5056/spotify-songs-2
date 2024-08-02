@@ -6,6 +6,6 @@
 *.Rproj
 *_files
 *_cache
-rsconnect
+*_site
 
 /.quarto/
