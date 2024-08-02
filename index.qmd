@@ -1,7 +1,8 @@
 ---
-title: "."
+title: "Spotify Songs v2"
+author: Alan Tao
 ---
 
-This is a Quarto website.
+# Introduction
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This is a deeper analysis of spotify songs using the [30000 Spotify Songs](https://www.kaggle.com/datasets/joebeachcapital/30000-spotify-songs){target="blank"} dataset. This is an extension to the exploratory analysis of Spotify songs: [Spotify Songs v1](https://alienjao.quarto.pub/spotify-songs/pages/index.html){target="blank"}. 

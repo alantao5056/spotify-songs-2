@@ -2,12 +2,20 @@ project:
   type: website
 
 website:
-  title: "."
+  title: "Spotify Songs v2"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+    
+    right:
+      - icon: github
+        href: https://github.com/alantao5056
+      - icon: youtube
+        href: https://www.youtube.com/channel/UCzdtyvYuUM6EGKhtsbF_jhQ/
+      - icon: spotify
+        href: https://open.spotify.com/user/31ackcqgy2jda7bqz72fovthuxoe
 
 format:
   html:

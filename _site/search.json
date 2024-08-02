@@ -4,13 +4,27 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "My name is Alan Tao, and this website is a project I made in Kane’s Free Data Science Bootcamp. I’m really interested in music in general, so I decided to focus my project on this topic. Making this website took a lot of effort because bayseian regression models take a long time to run. Please support me by viewing my work and also my YouTube Channel."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": ".",
+    "title": "Spotify Songs v2",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Introduction\nThis is a deeper analysis of spotify songs using the 30000 Spotify Songs dataset. This is an extension to the exploratory analysis of Spotify songs: Spotify Songs v1."
+  },
+  {
+    "objectID": "about.html#data-kaggle",
+    "href": "about.html#data-kaggle",
+    "title": "About",
+    "section": "Data (Kaggle)",
+    "text": "Data (Kaggle)\n30000 Spotify Songs"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nEmail: alantaolr@outlook.com\nWebsite: alantao.com\nGitHub: https://github.com/alantao5056\nYouTube: https://www.youtube.com/channel/UCzdtyvYuUM6EGKhtsbF_jhQ"
   }
 ]
