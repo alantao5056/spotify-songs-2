@@ -14,3 +14,4 @@ fit <- brm(
   seed = 9
 )
 
+fit
