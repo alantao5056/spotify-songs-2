@@ -1,0 +1,9 @@
+---
+title: "Sources"
+---
+
+# Data
+I obtained the dataset [30000 Spotify Songs](https://www.kaggle.com/datasets/joebeachcapital/30000-spotify-songs) from Kaggle. 
+
+# Data Cleaning
+I first removed "duplicate songs", songs that are identical but are repeated multiple times in the dataset because they are from different albums (eg. deluxe albums). Reducing it from 32,833 rows to 26,230 rows. I then removed all other columns except track popularity, playlist genre, danceability, speechiness, valence, tempo, and duration. Finally, I multiplied danceability, speechiness and valence by 100, to get the same 1 - 100 scale as popularity and also converted duration from miliseconds to seconds. 
