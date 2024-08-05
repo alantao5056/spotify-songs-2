@@ -3,11 +3,13 @@ project:
 
 website:
   title: "Spotify Songs v2"
+  favicon: logo.png
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - model.qmd
     
     right:
       - icon: github
@@ -19,7 +21,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: minty
     css: styles.css
     toc: true
 

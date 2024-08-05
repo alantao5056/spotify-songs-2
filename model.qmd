@@ -1,0 +1,24 @@
+---
+title: "Model"
+execute: 
+  echo: false
+---
+
+```{r}
+#| label: setup
+
+library(gtsummary)
+```
+$$track\_popularity_i = \beta_{0} + \beta_{1}playlist\_genre_i + \beta_{2}danceability_i + \beta_{3}speechiness_i + \beta_{4}valence_i + \beta{5}tempo_i + \beta{6}duration_i + \epsilon_{i}$$
+
+```{r}
+#| label: model
+#| warning: false
+
+model <- readRDS("C:/git/alantao5056/R/projects2/spotify-songs-2/src/scripts/model.rds")
+
+model |>
+  tbl_regression()
+```
+
+![](./src/plots/genre.png)
