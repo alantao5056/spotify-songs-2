@@ -8,8 +8,9 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
       - model.qmd
+      - sources.qmd
+      - about.qmd
     
     right:
       - icon: github
