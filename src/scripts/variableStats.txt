@@ -1,0 +1,24 @@
+summarize(spotify)
+
+ track_popularity playlist_genre      danceability    speechiness        valence     
+ Min.   : 0.00    Length:26230       Min.   : 0.00   Min.   : 0.000   Min.   : 0.00  
+ 1st Qu.:22.00    Class :character   1st Qu.:56.20   1st Qu.: 4.103   1st Qu.:32.50  
+ Median :42.00    Mode  :character   Median :67.00   Median : 6.300   Median :50.70  
+ Mean   :39.51                       Mean   :65.37   Mean   :10.874   Mean   :50.64  
+ 3rd Qu.:58.00                       3rd Qu.:76.00   3rd Qu.:13.500   3rd Qu.:69.00  
+ Max.   :98.00                       Max.   :98.30   Max.   :91.800   Max.   :99.10  
+     tempo         duration_ms       duration_s   
+ Min.   :  0.00   Min.   :  4000   Min.   :  4.0  
+ 1st Qu.: 99.98   1st Qu.:186673   1st Qu.:186.7  
+ Median :122.01   Median :215723   Median :215.7  
+ Mean   :121.00   Mean   :225486   Mean   :225.5  
+ 3rd Qu.:134.03   3rd Qu.:253793   3rd Qu.:253.8  
+ Max.   :239.44   Max.   :517810   Max.   :517.8
+ 
+ 
+ Standard Deviation:
+ 
+ # A tibble: 1 × 5
+  danceability speechiness valence tempo duration_s
+         <dbl>       <dbl>   <dbl> <dbl>      <dbl>
+1         14.6        10.3    23.5  26.9       61.3

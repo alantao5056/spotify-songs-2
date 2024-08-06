@@ -1,11 +1,12 @@
 ---
-title: "Spotify Songs v2"
-author: Alan Tao
+title: ""
+sidebar: false
 ---
 
-# Introduction
-What makes music popular? Why do some songs get no attention, while some songs become mega-hits? Using data from Kaggle that uses spotifyr to collect 5000 songs from the 6 main genres of music (EDM, Latin, Pop, R&B, Rap, Rock), I seek to determine the important factors that make a song popular based on many variables about the song. I modeled popularity, a variable from 0 to 100 where 100 means most popular, as a logistic function of genre, danceabillity, speechiness, valence, tempo and duration. The pop genre is estimated to be more popular than EDM by 15.53 units of popularity (out of 100). In addition, one unit in danceability contributes to 0.12 units in popularity, plus or minus 0.01. 
+![](./src/plots/danceability-wide.png){width=200%}
 
-![](./src/plots/genre.png)
+What makes music popular? Why do some songs get no attention, while some songs become mega-hits? Using data from Kaggle that uses spotifyr to collect 5000 songs from the 6 main genres of music (EDM, Latin, Pop, R&B, Rap, Rock), I seek to determine the important factors that make a song popular based on many variables about the song. I modeled popularity, a variable from 0 to 100 where 100 means most popular, as a logistic function of genre, danceabillity, speechiness, valence, tempo and duration. 25 points in danceability is associated with 3 ($\pm$ 0.25) points of popularity on a 100 point scale.
+
+
 
 

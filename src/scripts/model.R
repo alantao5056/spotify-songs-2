@@ -21,6 +21,20 @@ spotify |>
          valence = valence * 100,
          duration_s = duration_ms / 1000)
 
+summary(spotify)
+
+# get standard deviation of variables
+spotify |>
+  summarize(danceability = sd(danceability),
+            speechiness = sd(speechiness),
+            valence = sd(valence),
+            tempo = sd(tempo),
+            duration_s = sd(duration_s))
+
+spotify <-
+  spotify |>
+  mutate(duration_s = as.numeric(scale(duration_s)),
+         tempo = as.numeric(scale(tempo)))
 
 # model
 fit <- brm(

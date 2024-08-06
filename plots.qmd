@@ -1,0 +1,36 @@
+---
+title: "Plots"
+---
+## Exploratory Data Analysis
+Exploratory data analysis of this [dataset](https://www.kaggle.com/datasets/joebeachcapital/30000-spotify-songs){target="blank"} and other related datasets can be found on this website: [Spotify Songs v1](https://alienjao.quarto.pub/spotify-songs/pages/index.html){target="blank"}. There are a ton of plots there that doesn't involve creating a model and making predictions. 
+
+## Prediction of Popularity Given Playlist Genre
+![](./src/plots/genre.png)
+
+The pop genre is estimated to be more popular than EDM by 15.53 ($\pm$ 0.47) on a 100 point scale.
+
+## Prediction of Popularity Given Playlist Genre and Danceability
+![](./src/plots/danceability.png)
+
+25 points in danceability is associated with 3 ($\pm$ 0.25) points of popularity on a 100 point scale.
+
+## Prediction of Popularity Given Playlist Genre and Speechiness
+![](./src/plots/speechiness.png)
+
+The more speechy a song is, the more hard it is to define. In general, 25 points in speechiness associated with -1 ($\pm$ 0.25) points of popularity on a 100 point scale.
+
+## Prediction of Popularity Given Playlist Genre and Valence
+![](./src/plots/valence.png)
+
+Similar to speechiness, 25 points of valence is associated with -0.75 ($\pm$ 0.25) points of popularity on a 100 point scale. 
+
+
+## Prediction of Popularity Given Playlist Genre and Tempo
+![](./src/plots/tempo.png)
+
+The average tempo is 121 BPM with a standard deviation of 26.9 BPM. Check out [what is a standard deviation](/about.html#what-is-a-standard-deviation) in the About page. One standard deviation is associated with 0.6 ($\pm$ 0.14) points in popularity on a 100 point scale. 
+
+## Prediction of Popularity Given Playlist Genre and Duration
+![](./src/plots/duration.png)
+
+The average duration is 225.5 seconds with a standard deviation of 61.3 seconds. One standard deviation is associated with -2.95 ($\pm$ 0.14) points in popularity on a 100 point scale. 
