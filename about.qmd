@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-My name is Alan Tao, and this website is a project I made in [Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info/){target="blank"}. I'm really interested in music in general, so I decided to focus my project on this topic. Making this website took a lot of effort because bayseian regression models take a long time to run. Please support me by viewing my work and also my [YouTube Channel](https://www.youtube.com/channel/UCzdtyvYuUM6EGKhtsbF_jhQ){target="blank"}. 
+My name is Alan Tao, and this website is a project I made in [Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info/){target="blank"}. I'm really interested in music in general, so I decided to focus my project on this topic. Making this website took a lot of effort because Bayesian regression models take a long time to run. Please support me by viewing my work and also my [YouTube Channel](https://www.youtube.com/channel/UCzdtyvYuUM6EGKhtsbF_jhQ){target="blank"}. 
 
 ## Why is it called v2?
 This is a deeper analysis of spotify songs using the [30000 Spotify Songs](https://www.kaggle.com/datasets/joebeachcapital/30000-spotify-songs){target="blank"} dataset. This is an extension to the exploratory analysis of Spotify songs: [Spotify Songs v1](https://alienjao.quarto.pub/spotify-songs/pages/index.html){target="blank"}. These two projects are both created in [Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info/){target="blank"}.
